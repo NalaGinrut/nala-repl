@@ -1,6 +1,8 @@
 This is an enhanced REPL for GNU Guile.
+Only support Guile-2.0.9 and later.
 
 This project currently provided:
+
 1. Scheme source code printing
 2. Colorized REPL
 
