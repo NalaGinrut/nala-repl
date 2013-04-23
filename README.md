@@ -6,8 +6,9 @@ This project currently provided:
 1. Scheme source code printing
 2. Colorized REPL
 
-*** Scheme source code printing
+=== Scheme source code printing ===
 * TEST
+
 Copy these lines below to your REPL for test:
 ``` scheme
 (use-modules (nala src))
@@ -15,14 +16,16 @@ Copy these lines below to your REPL for test:
 ```
 
 * ENJOY
+
 Add this to your ~/.guile
 ``` scheme
 (use-modules (nala src))
 ```
 
-*** Colorized REPL
+=== Colorized REPL ===
 
 * TEST
+
 Copy these lines below to your REPL for test:
 ``` scheme
 (use-modules (oop goops) (rnrs) (ice-9 colorized))
@@ -31,6 +34,7 @@ Copy these lines below to your REPL for test:
 ```
 
 * ENJOY
+
 And you may add these to your ~/.guile
 ``` scheme
 (use-modules (ice-9 colorized))
