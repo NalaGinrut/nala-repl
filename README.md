@@ -5,6 +5,7 @@ This project currently provided:
 
 1. Scheme source code printing
 2. Colorized REPL
+3. Run shell command
 
 === Scheme source code printing ===
 * TEST
@@ -40,3 +41,11 @@ And you may add these to your ~/.guile
 (use-modules (ice-9 colorized))
 (activate-colorized)
 ```
+
+
+=== Run shell command ===
+``` scheme
+(use-modules (nala shell))
+,shell uname -r
+``` 
+
