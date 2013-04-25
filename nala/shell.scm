@@ -17,9 +17,7 @@
 (define-module (nala shell)
   #:use-module (system repl command)
   #:use-module (system vm program)
-  #:use-module (system repl common)
-  #:use-module (srfi srfi-1)
-  #:use-module (ice-9 rdelim))
+  #:use-module (system repl common))
 
 (define (cmd-run . args)
   (system (string-join args " ")))
