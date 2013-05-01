@@ -29,7 +29,7 @@ Add this to your ~/.guile
 
 Copy these lines below to your REPL for test:
 ``` scheme
-(use-modules (oop goops) (rnrs) (ice-9 colorized))
+(use-modules (oop goops) (rnrs) (nala colorized))
 (activate-colorized)
 `(this-is-a-symbol 1 2.5 2/5 #\c "asdf" ,(lambda () #t) ,(cons 1 2) ,(vector 1 2 3) #2u32@2@3((1 2) (3 4)) ,(make-bytevector 10 99) ,<object>)
 ```
@@ -38,7 +38,7 @@ Copy these lines below to your REPL for test:
 
 And you may add these to your ~/.guile
 ``` scheme
-(use-modules (ice-9 colorized))
+(use-modules (nala colorized))
 (activate-colorized)
 ```
 
