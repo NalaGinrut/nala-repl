@@ -1,5 +1,5 @@
 MOD := nala
-TARGET := $(shell guile -c "(display (car %load-path))")
+TARGET := $(shell guile -c "(display (%global-site-dir))")
 
 all:
 	echo "just type 'make install'"
